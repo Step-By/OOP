@@ -15,7 +15,7 @@ public class HomeWork {
         System.out.println(pc.mb.p);
         System.out.println(pc.mb.va);
     }
-    public static void main(String[] args) {
+    public static void main2(String[] args) {
      Human human=new Human();
      Mobile mobile=new Mobile();
      Bag bag=new Bag();
@@ -31,6 +31,16 @@ public class HomeWork {
         System.out.println(human.myBag.pn.color);
         System.out.println(human.myBag.pt.color);
 
+
+    }
+
+    public static void main(String[] args) {
+        Car car=new Car();
+        System.out.println( car.color);
+        System.out.println( car.equipment );
+        System.out.println( car.guarantee);
+        System.out.println( car.volume_motor);
+        System.out.println( car.model);
 
     }
 }
@@ -56,11 +66,11 @@ class MotherBoard {
 //Возьмите любое существительное и опишите для него класс.
 // (список полей)
 class Car {
-    int model;
-    int color;
-    double volume_motor;
-    int equipment;
-    int guarantee;
+    int model=535;
+    String color="Red";
+    double volume_motor=2.5;
+    String equipment="Full";
+     int guarantee=5;
 }
 
     //----------------------------------------------------------------------
